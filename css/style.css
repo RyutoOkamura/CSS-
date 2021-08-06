@@ -1,0 +1,122 @@
+/* ヘッダー部分 */
+.header-content__img {
+  height: 400px;
+  overflow: hidden;
+  position: relative;
+}
+
+.header-content__img img {
+  width: 100%;
+}
+
+.header-ttl {
+  position: absolute;
+  font-size: 40px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+/* About部分 */
+main {
+  width: 1000px;
+  margin: 0 auto;
+}
+
+.about-wrapper {
+  padding: 35px 0;
+  text-align: center;
+}
+
+.about-wrapper-ttl {
+  font-size: 25px;
+  padding-bottom: 35px;
+}
+
+.about-inner span {
+  font-weight: bold;
+}
+
+/* ブログ部分 */
+.blog-wrapper {
+  padding-bottom: 35px;
+}
+
+.blog-wrapper-ttl {
+  font-size: 25px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.blog-inner {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.content-img img {
+  width: 300px;
+  height: auto;
+}
+
+.text-box {
+  font-weight: bold;
+}
+
+/* contact部分 */
+
+.contact-wrapper-ttl {
+  font-size: 25px;
+  padding-bottom: 35px;
+  text-align: center;
+}
+
+.form {
+  width: 780px;
+  margin: 0 auto;
+}
+
+.form-item {
+  padding: 24px 0;
+  margin: 0 auto;
+  display: flex;
+  align-items: flex-end;
+}
+
+.form-item-label {
+  width: 100%;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.form-item-input {
+  width: 200%;
+}
+
+.form-item-textarea {
+  height: 250px;
+  width: 200%;
+}
+
+.btn {
+  display: flex;
+  text-align: center;
+}
+
+.form-btn {
+  margin: 40px auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  width: 200px;
+  background: rgb(213, 213, 213);
+  color: gray;
+  font-weight: bold;
+  font-size: 15px;
+  border: none;
+  cursor: pointer;
+}
+
+.form-btn--green {
+  background: #5bc8ac;
+  color: #fff;
+}
